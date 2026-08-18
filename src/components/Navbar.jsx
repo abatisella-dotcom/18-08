@@ -79,15 +79,7 @@ function Navbar() {
           ))}
         </nav>
 
-        {/* CTA Button Desktop */}
-        <div className="hidden md:block">
-          <Link to="/contato">
-            <Button variant="primary" className="!text-sm flex items-center gap-2">
-              <FaCalendarAlt size={14} />
-              Agendar Horário
-            </Button>
-          </Link>
-        </div>
+      
 
         {/* Mobile Toggle Button */}
         <button
@@ -121,10 +113,7 @@ function Navbar() {
           ))}
           <div className="mt-4">
             <Link to="/contato" className="block w-full">
-              <Button variant="primary" className="w-full flex items-center justify-center gap-2">
-                <FaCalendarAlt size={16} />
-                Agendar Horário
-              </Button>
+              
             </Link>
           </div>
         </nav>

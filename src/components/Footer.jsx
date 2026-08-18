@@ -53,7 +53,6 @@ function Footer() {
         <div>
           <h3 className="text-white text-lg font-bold mb-5 relative pb-2">
             Links Úteis
-            <span className="absolute bottom-0 left-0 w-8 h-1 bg-[#8fc4ae] rounded-full"></span>
           </h3>
           <ul className="flex flex-col gap-3 text-sm">
             <li>
@@ -88,7 +87,6 @@ function Footer() {
         <div className="flex flex-col gap-4">
           <h3 className="text-white text-lg font-bold mb-1 relative pb-2">
             Contatos
-            <span className="absolute bottom-0 left-0 w-8 h-1 bg-[#8fc4ae] rounded-full"></span>
           </h3>
           <ul className="flex flex-col gap-3 text-sm text-slate-400">
             <li className="flex items-start gap-2.5">
@@ -114,7 +112,6 @@ function Footer() {
         <div>
           <h3 className="text-white text-lg font-bold mb-5 relative pb-2">
             Novidades & Dicas
-            <span className="absolute bottom-0 left-0 w-8 h-1 bg-[#8fc4ae] rounded-full"></span>
           </h3>
           <p className="text-sm text-slate-400 mb-4 leading-relaxed">
             Cadastre seu e-mail para receber cupons de desconto especiais e dicas de cuidados pet.

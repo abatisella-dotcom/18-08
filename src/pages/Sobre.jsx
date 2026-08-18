@@ -47,15 +47,15 @@ function Sobre() {
   return (
     <div>
       {/* 1. Header Banner */}
-      <div className="bg-[#f8f2d7] py-12 md:py-16 text-center relative overflow-hidden">
+      <div className="bg-[#8fc4ae] py-12 md:py-16 text-center relative overflow-hidden">
         <div className="absolute top-0 right-0 w-36 h-36 bg-[#8fc4ae]/10 rounded-full blur-xl pointer-events-none"></div>
         <div className="absolute bottom-0 left-0 w-36 h-36 bg-[#e28f83]/10 rounded-full blur-xl pointer-events-none"></div>
 
         <Container className="relative z-10">
-          <h1 className="text-4xl md:text-5xl font-black text-[#2f3e46] tracking-tight">
+          <h1 className="text-4xl md:text-5xl font-black text-white tracking-tight">
             Conheça as responsáveis pelo seu pet!
           </h1>
-          <p className="text-slate-600 text-sm md:text-base mt-2 max-w-xl mx-auto font-medium">
+          <p className="text-slate-600 text-sm md:text-base mt-2 max-w-xl mx-auto font-medium text-white">
             Conheça o amor e a dedicação por trás do nosso espaço de bem-estar animal.
           </p>
         </Container>
@@ -73,13 +73,13 @@ function Sobre() {
             {equipeCards.map((item) => (
               <div
                 key={item.id}
-                className="bg-[#fcfbf7] rounded-3xl p-6 border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col items-center text-center w-56 hover:-translate-y-1 group"
+                className=" rounded-3xl p-6  hover:shadow-xl transition-all duration-300 flex flex-col items-center text-center w-56 hover:-translate-y-1 group"
               >
-                <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-[#64b6ac] shadow-sm mb-4">
+                <div className="w-50 h-50 rounded-full overflow-hidden border-4 border-[#64b6ac] shadow-sm mb-4">
                   <img
                     src={item.capa}
                     alt={item.titulo}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <h3 className="text-xl font-bold text-[#2f3e46] group-hover:text-[#64b6ac] transition-colors">
