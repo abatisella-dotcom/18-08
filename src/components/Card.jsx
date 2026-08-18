@@ -15,7 +15,6 @@ function Card({
 }) {
   return (
     <div className={`bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full border border-slate-100 ${className}`}>
-      {/* Card Image Wrapper */}
       <div className="relative overflow-hidden aspect-[4/3] bg-slate-100">
         {badge && (
           <span className="absolute top-4 left-4 z-10 bg-[#e28f83] text-white text-[10px] sm:text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full shadow-sm">
@@ -33,7 +32,6 @@ function Card({
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
           loading="lazy"
         />
-        {/* Heart Icon Overlay */}
         <button 
           className="absolute bottom-4 right-4 bg-white/80 hover:bg-white text-[#e28f83] hover:text-red-500 p-2.5 rounded-full shadow-md backdrop-blur-xs transition-all duration-300 transform scale-0 group-hover:scale-100 cursor-pointer"
           aria-label="Adicionar aos favoritos"
@@ -42,7 +40,7 @@ function Card({
         </button>
       </div>
 
-      {/* Card Body */}
+      {/* Card */}
       <div className="p-5 flex flex-col flex-grow">
         <h3 className="text-lg md:text-xl font-bold text-[#2f3e46] mb-2 group-hover:text-[#8fc4ae] transition-colors line-clamp-1">
           {title}
@@ -51,7 +49,7 @@ function Card({
           {description}
         </p>
 
-        {/* Footer Area: Price and Button */}
+        {/* Footer  */}
         <div className="flex items-center justify-between mt-auto pt-4 border-t border-slate-100">
           <div className="flex flex-col">
             <span className="text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Valor</span>
