@@ -4,6 +4,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 // Importação das páginas
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
+import Produtos from './pages/Produtos';
 import Contato from './pages/Contato';
 import Faq from './pages/Faq';
 import NotFound from './pages/NotFound';
@@ -46,6 +47,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sobre" element={<Sobre />} />
+          <Route path="/produtos" element={<Produtos />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/contato" element={<Contato />} />
           {/* Rota curinga para erro 404 */}
