@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaPaw, FaRegCheckCircle } from 'react-icons/fa';
 import Button from './Button';
 import Container from './Container';
+import img5 from "../assets/img/image5.png";
 
 function Hero() {
   return (
@@ -66,8 +67,8 @@ function Hero() {
           <div className="relative flex justify-center lg:justify-end">
             <div className="relative w-full max-w-[450px] aspect-[4/5] sm:aspect-square lg:aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-white bg-slate-100">
               <img 
-                src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&q=80&w=800" 
-                alt="Golden Retriever feliz na Makal PetStore" 
+                src= {img5} 
+                alt="Makal PetStore" 
                 className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
               />
               

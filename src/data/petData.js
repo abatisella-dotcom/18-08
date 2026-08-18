@@ -1,3 +1,10 @@
+import img1 from "../assets/img/image1.png";
+import img2 from "../assets/img/image2.png";
+import img3 from "../assets/img/image3.png";
+import img4 from "../assets/img/image4.png";
+import img5 from "../assets/img/image5.png";
+
+
 export const companyDetails = {
   name: "Makal PetStore",
   slogan: "Cuidado premium e carinho de verdade para quem você mais ama.",
@@ -34,25 +41,23 @@ export const products = [
     title: "Banho & Tosa Premium",
     category: "Serviços",
     price: "R$ 45,00",
-    image: "https://media.istockphoto.com/id/1496991182/pt/foto/cute-cavalier-king-charles-spaniel-having-a-bath-at-home.jpg?s=612x612&w=0&k=20&c=hNU8R8nZ3pPKZfvXL-EQWkEv9KIiEblqGw4C1w07ujo=",
+    image: img1,
     description: "Banho terapêutico com shampoo hipoalergênico, hidratação profunda da pelagem, secagem silenciosa e tosa na máquina ou tesoura por especialistas.",
-  
   },
   {
     id: 2,
     title: "Consulta Veterinária",
     category: "Serviços",
     price: "R$ 150,00",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw4dlui7I_SJUgFtLOrsup7gKe_FWtLN9dLd0JoWp93PIsGKK7PA2EScE&s=10",
-    description: "Check-up completo com médicos veterinários dedicados, exames preventivos, prescrições personalizadas e acompanhamento atencioso.",
-    
+  image: img2,  
+  description: "Check-up completo com médicos veterinários dedicados, exames preventivos, prescrições personalizadas e acompanhamento atencioso.",
   },
   {
     id: 3,
     title: "Hotel pet",
     category: "Serviços",
     price: "R$ 120,00/dia",
-    image: "https://pethotelpampulha.com.br/wp-content/uploads/2025/10/FOTO_-4.jpg",
+    image: img4,
     description: "Hospedagem monitorada 24h com quartos individuais climatizados, rotina de atividades físicas, socialização supervisionada e relatórios diários para os tutores."
   },
   {
