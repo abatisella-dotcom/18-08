@@ -1,5 +1,3 @@
-// Dados estáticos da Makal PetStore
-
 export const companyDetails = {
   name: "Makal PetStore",
   slogan: "Cuidado premium e carinho de verdade para quem você mais ama.",
@@ -35,26 +33,26 @@ export const products = [
     id: 1,
     title: "Banho & Tosa Premium",
     category: "Serviços",
-    price: "R$ 90,00",
-    image: "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&q=80&w=600",
+    price: "R$ 45,00",
+    image: "https://media.istockphoto.com/id/1496991182/pt/foto/cute-cavalier-king-charles-spaniel-having-a-bath-at-home.jpg?s=612x612&w=0&k=20&c=hNU8R8nZ3pPKZfvXL-EQWkEv9KIiEblqGw4C1w07ujo=",
     description: "Banho terapêutico com shampoo hipoalergênico, hidratação profunda da pelagem, secagem silenciosa e tosa na máquina ou tesoura por especialistas.",
-    badge: "Mais Vendido"
+  
   },
   {
     id: 2,
     title: "Consulta Veterinária",
     category: "Serviços",
     price: "R$ 150,00",
-    image: "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?auto=format&fit=crop&q=80&w=600",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw4dlui7I_SJUgFtLOrsup7gKe_FWtLN9dLd0JoWp93PIsGKK7PA2EScE&s=10",
     description: "Check-up completo com médicos veterinários dedicados, exames preventivos, prescrições personalizadas e acompanhamento atencioso.",
-    badge: "Essencial"
+    
   },
   {
     id: 3,
-    title: "Hotelzinho Conforto",
+    title: "Hotel pet",
     category: "Serviços",
     price: "R$ 120,00/dia",
-    image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&q=80&w=600",
+    image: "https://pethotelpampulha.com.br/wp-content/uploads/2025/10/FOTO_-4.jpg",
     description: "Hospedagem monitorada 24h com quartos individuais climatizados, rotina de atividades físicas, socialização supervisionada e relatórios diários para os tutores."
   },
   {
@@ -62,42 +60,20 @@ export const products = [
     title: "Adestramento Comportamental",
     category: "Serviços",
     price: "R$ 110,00",
-    image: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&q=80&w=600",
+    image: "https://www.petz.com.br/blog/wp-content/uploads/2018/08/adestramento3.jpg",
     description: "Aulas focadas em comportamento canino utilizando técnicas exclusivas de reforço positivo, auxiliando na socialização e obediência básica."
   },
-  {
-    id: 5,
-    title: "Ração Super Premium Cães",
-    category: "Produtos",
-    price: "R$ 189,90",
-    image: "https://images.unsplash.com/photo-1589722819828-b302ecf80831?auto=format&fit=crop&q=80&w=600",
-    description: "Alimento completo e balanceado para cães adultos de porte médio e grande. Sem corantes artificiais e enriquecido com ômega 3 e 6.",
-    badge: "Promoção"
-  },
-  {
-    id: 6,
-    title: "Ração Premium Especial Gatos",
-    category: "Produtos",
-    price: "R$ 145,00",
-    image: "https://images.unsplash.com/photo-1569591159212-b02ea8a9f239?auto=format&fit=crop&q=80&w=600",
-    description: "Fórmula de alta digestibilidade para gatos castrados. Auxilia no controle do peso e na saúde do trato urinário com ingredientes nobres."
-  },
+
+  
   {
     id: 7,
     title: "Brinquedo Mordedor Interativo",
     category: "Produtos",
     price: "R$ 49,90",
-    image: "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&q=80&w=600",
+    image: "https://http2.mlstatic.com/D_Q_NP_817453-CBT75910409066_042024-O.webp",
     description: "Mordedor ultra resistente em borracha atóxica para cães. Possui compartimento para petiscos, estimulando o raciocínio e combatendo a ansiedade."
   },
-  {
-    id: 8,
-    title: "Cama Nuvem Ortopédica",
-    category: "Produtos",
-    price: "R$ 169,00",
-    image: "https://images.unsplash.com/photo-1541599540903-216a46ca1ad0?auto=format&fit=crop&q=80&w=600",
-    description: "Cama redonda ultra macia com preenchimento siliconado antialérgico. Alivia dores nas articulações e proporciona um sono revigorante para cães e gatos."
-  }
+  
 ];
 
 export const team = [
