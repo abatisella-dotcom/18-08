@@ -49,67 +49,6 @@ function Footer() {
           </div>
         </div>
 
-        {/* Col 2: Navigation Links */}
-        <div>
-          <h3 className="text-white text-lg font-bold mb-5 relative pb-2">
-            Links Úteis
-            <span className="absolute bottom-0 left-0 w-8 h-1 bg-[#8fc4ae] rounded-full"></span>
-          </h3>
-          <ul className="flex flex-col gap-3 text-sm">
-            <li>
-              <Link to="/" className="hover:text-[#8fc4ae] transition-colors flex items-center gap-1.5">
-                <FaPaw size={10} className="text-[#8fc4ae]" /> Home
-              </Link>
-            </li>
-            <li>
-              <Link to="/sobre" className="hover:text-[#8fc4ae] transition-colors flex items-center gap-1.5">
-                <FaPaw size={10} className="text-[#8fc4ae]" /> Sobre Nós
-              </Link>
-            </li>
-            <li>
-              <Link to="/produtos" className="hover:text-[#8fc4ae] transition-colors flex items-center gap-1.5">
-                <FaPaw size={10} className="text-[#8fc4ae]" /> Catálogo
-              </Link>
-            </li>
-            <li>
-              <Link to="/faq" className="hover:text-[#8fc4ae] transition-colors flex items-center gap-1.5">
-                <FaPaw size={10} className="text-[#8fc4ae]" /> Dúvidas Frequentes (FAQ)
-              </Link>
-            </li>
-            <li>
-              <Link to="/contato" className="hover:text-[#8fc4ae] transition-colors flex items-center gap-1.5">
-                <FaPaw size={10} className="text-[#8fc4ae]" /> Fale Conosco
-              </Link>
-            </li>
-          </ul>
-        </div>
-
-        {/* Col 3: Contact Info & Hours */}
-        <div className="flex flex-col gap-4">
-          <h3 className="text-white text-lg font-bold mb-1 relative pb-2">
-            Contatos
-            <span className="absolute bottom-0 left-0 w-8 h-1 bg-[#8fc4ae] rounded-full"></span>
-          </h3>
-          <ul className="flex flex-col gap-3 text-sm text-slate-400">
-            <li className="flex items-start gap-2.5">
-              <FaMapMarkerAlt className="text-[#8fc4ae] mt-1 shrink-0" size={16} />
-              <span>{companyDetails.address}</span>
-            </li>
-            <li className="flex items-center gap-2.5">
-              <FaPhone className="text-[#8fc4ae] shrink-0" size={15} />
-              <span>{companyDetails.phone}</span>
-            </li>
-            <li className="flex items-center gap-2.5">
-              <FaEnvelope className="text-[#8fc4ae] shrink-0" size={15} />
-              <span>{companyDetails.email}</span>
-            </li>
-          </ul>
-          <div className="border-t border-slate-700/60 pt-3">
-            <h4 className="text-white text-xs font-bold uppercase tracking-wider mb-1.5">Horário de Funcionamento</h4>
-            <p className="text-xs text-slate-500 leading-relaxed">{companyDetails.openingHours}</p>
-          </div>
-        </div>
-
         {/* Col 4: Newsletter */}
         <div>
           <h3 className="text-white text-lg font-bold mb-5 relative pb-2">
