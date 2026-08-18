@@ -21,13 +21,13 @@ function Faq() {
         
         
         <Container className="relative z-10">
-          <span className="text-white font-extrabold text-xs uppercase tracking-widest flex items-center justify-center gap-1.5 mb-2">
-            <FaPaw size={12} /> Perguntas Frequentes
+          <span className="text-yellow-50 font-extrabold text-xs uppercase tracking-widest flex items-center justify-center gap-1.5 mb-2">
+            <FaPaw size={18} /> As perguntas mais Frequentes
           </span>
-          <h1 className="text-4xl md:text-5xl font-black text-white tracking-tight">
-            Dúvidas Frequentes (FAQ)
+          <h1 className="  text-4xl md:text-6xl font-black text-white tracking-tight">
+             Dúvidas Frequentes (FAQ)
           </h1>
-          <p className="text-slate-600 text-sm md:text-base mt-2 max-w-xl mx-auto font-medium">
+          <p className="text-yellow-50 text-sm md:text-base mt-4 max-w-xl mx-auto font-medium">
             Encontre respostas rápidas para as principais dúvidas sobre nossos atendimentos, produtos e serviços.
           </p>
         </Container>
@@ -81,7 +81,7 @@ function Faq() {
       </Section>
 
       {/* 3. CTA FAQ Section */}
-      <Section className="bg-[#fcfbf7] pb-24!">
+      <Section className="bg-[#8fc4ae] pb-24!">
         <Container>
           <div className="bg-white rounded-[2.5rem] border border-slate-100 p-8 sm:p-12 shadow-sm max-w-3xl mx-auto text-center flex flex-col items-center gap-5">
             <div className="bg-[#8fc4ae]/15 text-[#76a390] p-4 rounded-full">
