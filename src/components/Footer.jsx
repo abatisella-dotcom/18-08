@@ -5,7 +5,7 @@ import { companyDetails } from '../data/petData';
 
 function Footer() {
   return (
-    <footer className="bg-[#8fc4ae]/10 text-slate-300 border-t-4 border-[#8fc4ae] pt-16 pb-8">
+    <footer className="bg-[#eaf4f1] text-slate-300 border-t-4 border-[#8fc4ae] pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center gap-6 mb-12">
         {/* Col 1: About */}
         <div className="flex flex-col items-center gap-4">
@@ -17,13 +17,13 @@ function Footer() {
               Makal<span className="text-[#8fc4ae] font-semibold">PetStore</span>
             </span>
           </Link>
-          <p className="text-sm leading-relaxed text-slate-400">
+          <p className="text-black text-sm md:text-base mt-4 max-w-xl mx-auto font-medium">
             {companyDetails.slogan}
           </p>
         </div>
       </div>
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 border-t border-slate-700/60 text-center text-xs text-slate-500 flex flex-col items-center gap-4">
+      <div className="text-center text-xs text-black">
         <p>&copy; {new Date().getFullYear()} Makal PetStore. Todos os direitos reservados.</p>
       </div>
     </footer>
