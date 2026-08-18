@@ -39,7 +39,6 @@ export const products = [
   {
     id: 1,
     title: "Banho & Tosa Premium",
-    category: "Serviços",
     price: "R$ 45,00",
     image: img1,
     description: "Banho terapêutico com shampoo hipoalergênico, hidratação profunda da pelagem, secagem silenciosa e tosa na máquina ou tesoura por especialistas.",
@@ -47,7 +46,6 @@ export const products = [
   {
     id: 2,
     title: "Consulta Veterinária",
-    category: "Serviços",
     price: "R$ 150,00",
   image: img2,  
   description: "Check-up completo com médicos veterinários dedicados, exames preventivos, prescrições personalizadas e acompanhamento atencioso.",
@@ -55,7 +53,6 @@ export const products = [
   {
     id: 3,
     title: "Hotel pet",
-    category: "Serviços",
     price: "R$ 120,00/dia",
     image: img4,
     description: "Hospedagem monitorada 24h com quartos individuais climatizados, rotina de atividades físicas, socialização supervisionada e relatórios diários para os tutores."
