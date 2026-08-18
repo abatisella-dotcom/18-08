@@ -82,11 +82,9 @@ function Faq() {
       <Section className="bg-[#8fc4ae] pb-24!">
         <Container>
           <div className="bg-white rounded-[2.5rem] border border-slate-100 p-8 sm:p-12 shadow-sm max-w-3xl mx-auto text-center flex flex-col items-center gap-5">
-            <div className="bg-[#8fc4ae]/15 text-[#76a390] p-4 rounded-full">
-              <FaQuestionCircle size={28} />
-            </div>
+            
             <h3 className="text-xl sm:text-2xl font-bold text-[#2f3e46]">Ainda tem dúvidas sobre o cuidado com o seu pet?</h3>
-            <p className="text-slate-500 text-sm leading-relaxed max-w-lg">
+            <p className="text-black-500 text-sm leading-relaxed text-sm md:text-base mt-4 max-w-xl mx-auto font-medium">
               Se você não encontrou a resposta que procurava nas perguntas frequentes, fique tranquilo! Entre em contato conosco e nossa equipe responderá você com toda atenção.
             </p>
             <Link to="/contato" className="mt-2">
