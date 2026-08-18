@@ -18,11 +18,7 @@ function NotFound() {
       <Container className="text-center flex flex-col items-center gap-6 relative z-10 px-4">
         {/* Lost Dog Illustration Card */}
         <div className="relative mb-4 flex items-center justify-center">
-          {/* Animated pulsing ripple */}
-          <span className="absolute inline-flex h-36 w-36 rounded-full bg-[#e28f83]/10 animate-ping"></span>
-          <span className="absolute inline-flex h-28 w-28 rounded-full bg-[#e28f83]/15 animate-pulse"></span>
-          
-          <div className="bg-white p-7 rounded-full border-4 border-[#e28f83] shadow-lg relative text-[#e28f83] animate-bounce">
+          <div className="bg-white p-7 rounded-full border-4 border-[#e28f83] shadow-lg relative text-[#e28f83]">
             <FaPaw size={64} />
           </div>
         </div>
@@ -33,11 +29,11 @@ function NotFound() {
         </span>
 
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#2f3e46] tracking-tight max-w-xl leading-tight">
-          Caminho perdido... Onde está o pet?
+          Página não encontrada...
         </h1>
         
         <p className="text-slate-500 text-sm sm:text-base leading-relaxed max-w-md mx-auto">
-          Parece que a página que você está procurando correu atrás de um brinquedo e sumiu no parque! Vamos voltar para a página inicial e começar a busca por lá?
+          Vamos voltar para a página inicial e começar a busca por lá?
         </p>
 
         <div className="mt-4 flex gap-4">
