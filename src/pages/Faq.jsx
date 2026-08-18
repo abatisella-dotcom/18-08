@@ -18,16 +18,14 @@ function Faq() {
     <div>
       {/* 1. Header Banner */}
       <div className="bg-[#8fc4ae] py-12 md:py-16 text-center relative overflow-hidden">
-        
-        
         <Container className="relative z-10">
-          <span className="text-white font-extrabold text-xs uppercase tracking-widest flex items-center justify-center gap-1.5 mb-2">
-            <FaPaw size={12} /> Perguntas Frequentes
+          <span className="text-yellow-50 font-extrabold text-xs uppercase tracking-widest flex items-center justify-center gap-1.5 mb-2">
+            <FaPaw size={18} /> As perguntas mais Frequentes
           </span>
-          <h1 className="text-4xl md:text-5xl font-black text-white tracking-tight">
+          <h1 className="text-4xl md:text-6xl font-black text-white tracking-tight">
             Dúvidas Frequentes (FAQ)
           </h1>
-          <p className="text-slate-600 text-sm md:text-base mt-2 max-w-xl mx-auto font-medium">
+          <p className="text-yellow-50 text-sm md:text-base mt-4 max-w-xl mx-auto font-medium">
             Encontre respostas rápidas para as principais dúvidas sobre nossos atendimentos, produtos e serviços.
           </p>
         </Container>
@@ -44,32 +42,32 @@ function Faq() {
                   key={item.id} 
                   className={`border rounded-3xl overflow-hidden transition-all duration-300 ${
                     isOpen 
-                      ? 'border-[#8fc4ae]/60 bg-[#fcfbf7] shadow-sm' 
+                      ? 'border-[#8fc4ae]/60 bg-[#8fc4ae] shadow-sm' 
                       : 'border-slate-200/60 bg-white hover:border-[#8fc4ae]/30 hover:shadow-xs'
                   }`}
                 >
-                  {/* Accordion Trigger/Header */}
                   <button
                     onClick={() => toggleFaq(item.id)}
-                    className="w-full flex justify-between items-center px-6 py-5 text-left font-bold text-[#2f3e46] text-sm sm:text-base md:text-lg focus:outline-none transition-colors select-none cursor-pointer"
+                    className={`w-full flex justify-between items-center px-6 py-5 text-left font-bold text-sm sm:text-base md:text-lg focus:outline-none transition-colors select-none cursor-pointer ${
+                      isOpen ? 'text-yellow-50' : 'text-[#2f3e46]'
+                    }`}
                   >
                     <span className="flex items-center gap-3 pr-4 leading-snug">
-                      <FaQuestionCircle className={`shrink-0 transition-colors duration-300 ${isOpen ? 'text-[#8fc4ae]' : 'text-slate-400'}`} size={18} />
+                      <FaQuestionCircle className={`shrink-0 transition-colors duration-300 ${isOpen ? 'text-white' : 'text-slate-400'}`} size={18} />
                       {item.question}
                     </span>
                     <FaChevronDown 
-                      className={`text-slate-400 shrink-0 transition-transform duration-300 ${isOpen ? 'transform rotate-180 text-[#8fc4ae]' : ''}`} 
+                      className={`shrink-0 transition-transform duration-300 ${isOpen ? 'transform rotate-180 text-white' : 'text-slate-400'}`} 
                       size={14} 
                     />
                   </button>
 
-                  {/* Accordion Content wrapper */}
                   <div 
                     className={`transition-all duration-500 ease-in-out overflow-hidden ${
                       isOpen ? 'max-h-[500px] border-t border-slate-100' : 'max-h-0'
                     }`}
                   >
-                    <div className="px-6 py-5 text-slate-500 text-xs sm:text-sm leading-relaxed">
+                    <div className={`px-6 py-5 text-xs sm:text-sm leading-relaxed ${isOpen ? 'text-white' : 'text-slate-500'}`}>
                       {item.answer}
                     </div>
                   </div>
@@ -81,7 +79,7 @@ function Faq() {
       </Section>
 
       {/* 3. CTA FAQ Section */}
-      <Section className="bg-[#fcfbf7] pb-24!">
+      <Section className="bg-[#8fc4ae] pb-24!">
         <Container>
           <div className="bg-white rounded-[2.5rem] border border-slate-100 p-8 sm:p-12 shadow-sm max-w-3xl mx-auto text-center flex flex-col items-center gap-5">
             <div className="bg-[#8fc4ae]/15 text-[#76a390] p-4 rounded-full">
